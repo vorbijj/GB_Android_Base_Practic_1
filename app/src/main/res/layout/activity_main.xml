@@ -7,7 +7,9 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
+
+
+    <!--<TextView
         android:id="@+id/textView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -59,7 +61,12 @@
         android:layout_height="46dp"
         android:layout_gravity="center_horizontal"
         android:textOn="Включено"
-        android:textOff="Выключено" />
+        android:textOff="Выключено" />-->
+
+    <include
+        layout="@layout/activity_layout_organizer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 
 </LinearLayout>
